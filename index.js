@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
-
-const { default: inquirer } = require("inquirer");
+const fs = require('fs');
+const  inquirer  = require("inquirer");
 const generateMarkdown = require('./utils/generateMarkdown.js');
 // TODO: Create an array of questions for user input
 const questions = [
@@ -60,7 +60,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'choose a license for your project?',
-        choices: ('MIT','GNU','Eclipse','ISC', 'None'),
+        choices: ['MIT','GNU','Eclipse','ISC', 'None'],
         validate: your_license => {
             if (your_license) {
                 return true;
@@ -126,7 +126,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    Fs.writeFile(fileName,data,(err) => {
+    fs.writeFile(fileName,data,(err) => {
         if (err) {
             return console.log(err);
         }
