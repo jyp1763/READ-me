@@ -3,7 +3,7 @@
 This is a simple command line readme generator. Users are able to create quality readme files in the command line of their terminal. 
 https://drive.google.com/file/d/19SrNNs9B7gHyjOy23pWDCr3_5Qy9jHUq/view
 
-# title
+# READ-me
   ##license:
   undefined
 
@@ -16,15 +16,15 @@ https://drive.google.com/file/d/19SrNNs9B7gHyjOy23pWDCr3_5Qy9jHUq/view
   -[contact me](#contact-me)
   
   ## Description:
-  description
+  This project is a simple, yet effective readme generator, that allows users to create quality readme's within their command line in their terminal.
   ## Installation:
   npm install
   ## Usage:
-  use
+  through the command line
   ## Contribution:
-  email
+  by cloning the repository.
   ## Testing:
   undefined
   ## contact me:
   - github: [jyp1763](https://github.com/jyp1763)
-  - email: [123@apple.com](mailto:user@example.com) 
+  - email: [jatannap@yahoo.com](mailto:user@example.com) 
